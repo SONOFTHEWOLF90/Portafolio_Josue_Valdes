@@ -65,11 +65,11 @@ a {
     
     font-family: var(--fuente-1);
     font-size  : 1rem;
-    color: var(--color-3);
-    
-    
+    color: var(--color-3); 
     
 }
+
+
 
 .navegacion__elemento:nth-child(1),
 .navegacion__elemento:nth-child(2),
@@ -78,6 +78,8 @@ a {
 .navegacion__elemento:nth-child(5){
     display: none;
 }
+
+
 
 
 /* ------------------------------ Sección Presentación ------------------------------*/
@@ -511,6 +513,7 @@ filter: invert(86%) sepia(18%) saturate(1227%) hue-rotate(114deg) brightness(90%
     font-style: normal;
     color: var(--color-3);
     margin-top: 30px;
+    margin-bottom: 10px;
 
 }
 
@@ -555,6 +558,7 @@ filter: invert(86%) sepia(18%) saturate(1227%) hue-rotate(114deg) brightness(90%
     border-radius: 10px;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 .contacto__imagen {
@@ -796,7 +800,7 @@ filter: invert(86%) sepia(18%) saturate(1227%) hue-rotate(114deg) brightness(90%
         font-size: 1rem;
         display: flex;
     }
-    
+
     .navegacion__elemento:nth-child(1),
     .navegacion__elemento:nth-child(2),
     .navegacion__elemento:nth-child(3),
