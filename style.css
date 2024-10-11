@@ -533,7 +533,7 @@ filter: invert(86%) sepia(18%) saturate(1227%) hue-rotate(114deg) brightness(90%
  
 }
 
-.proyectos__link{https://github.com/SONOFTHEWOLF90/Portafolio_Josue_Valdes.git
+.proyectos__link{
     font-size: 1.5rem;
     text-align: justify;
     font-family:var(--fuente-1);
