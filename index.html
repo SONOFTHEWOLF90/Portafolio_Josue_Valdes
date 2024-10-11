@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+    <title>Portafolio Josue Valdes</title>
+</head>
+
+<body>
+    
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#skills">Skills</a></li>
+                <li class="navegacion__elemento"><a href="#hobbies">Hobbies</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">contacto@josuevaldes.com</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="presentacion">
+         <!--<img src="assets/banner.eps" alt="curva azul como banner " class="banner__imagen"width="100%" height="auto">-->
+        <img src="assets/profile.jpg" alt="Foto de Josué" class="sobre-mi__imagen" width="150" height="auto">
+        <div class="presentacion__contenedor">
+            <h1 class="cabecera__titulo">Soy Josue Valdes</h1>
+            <h2 class="presentacion__titulo">Desarrollo experiencias digitales intuitivas y accesibles</h2>
+            <p class="presentacion__subtitulo">Tengo 33 años de edad, soy de Cuba pero vivo en Peru hace mas de 15 años.</p>
+            <ul class="redes">
+                <li class="redes__img"><a href="https://github.com/SONOFTHEWOLF90"><img class="redes__iconos" src="assets/github.svg" alt="Enlace a Github">Github</a></li>
+                <li class="redes__img"><a href="https://www.linkedin.com/in/josue-valdes-92131a249/"><img class="redes__iconos" src="assets/linkedin.svg" alt="Enlace a Linkedin">Linkedin</a></li>
+                <li class="redes__img"><a href="https://www.instagram.com/alpaca90cu/"><img class="redes__iconos" src="assets/instagram.svg" alt="Enlace a Instagram">Instagram</a></li>
+                <li class="redes__img"><a href="https://x.com/Alpaca90_Cu"><img class="redes__iconos" src="assets/twitter.svg" alt="Enlace a X">X</a></li>
+            </ul>    
+        </div>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section class="sobre-mi" id="sobre-mi">
+        <h2 class="sobre-mi__titulo">Sobre mí</h2>
+        <p class="sobre-mi__texto">¡Hola! Soy Josué, un apasionado del desarrollo web con un enfoque especial en la creación de experiencias digitales accesibles y eficientes. Después de completar mi formación en lógica de programación con JavaScript y desarrollo web para principiantes en Alura Latam, he seguido perfeccionando mis habilidades en diseño web y front-end. </p>
+        <p class="sobre-mi__texto">Estoy siempre en busca de nuevas tendencias tecnológicas que mejoren tanto la funcionalidad como la accesibilidad de los proyectos en los que trabajo. Cuando no estoy en el ordenador, generalmente estoy visitando nuevos lugares, tomando fotos, leyendo, pansando el rato con mi esposa, o en busca del One Piece. </p>
+        <a href="https://tu-sitio.com/curriculum.pdf" target="_blank" class="enlace-curriculum">Ver currículum ...</a>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="skills">
+        <h2 class="habilidades__titulo">Skills</h2>
+
+        <!-- Seccion Development -->
+        <section  h3 class="habilidades__subtitulo_development">Development</h3>
+            <ul class="habilidades__lista_development">
+                <li class="habilidades__elemento_development"><img class="habilidades__icono_development" src="assets/html.svg" alt="Icono de HTML">HTML 5</li>
+                <li class="habilidades__elemento_development"><img class="habilidades__icono_development" src="assets/javascript.svg" alt="Icono de JavaScript">JavaScript</li>
+                <li class="habilidades__elemento_development"><img class="habilidades__icono_development" src="assets/react.svg" alt="Icono de React">React</li>
+                <li class="habilidades__elemento_development"><img class="habilidades__icono_development" src="assets/css.svg" alt="Icono de CSS">CSS</li>
+            </ul>
+        </section>
+
+        <!-- Seccion Desing -->
+        <section h3 class="habilidades__subtitulo_design">Design</h3>
+            <ul class="habilidades__lista_design">
+                <li class="habilidades__elemento_design"><img class="habilidades__icono_design" src="assets/photoshop.svg" alt="Icono de Photoshop">Photoshop</li>
+                <li class="habilidades__elemento_design"><img class="habilidades__icono_design" src="assets/ilustrator.svg" alt="Icono de Illustrator">Illustrator</li>
+                <li class="habilidades__elemento_design"><img class="habilidades__icono_design" src="assets/premier.svg" alt="Icono de Adobe Premiere">Adobe Premiere</li>
+        </section>
+        
+        <section h3 class="habilidades__subtitulo_tools">Tools</h3>
+            <ul class="habilidades__lista_tools">
+                <li class="habilidades__elemento_tools"><img class="habilidades__icono_tools" src="assets/git.svg" alt="icono de Git">Git</li>
+                <li class="habilidades__elemento_tools"><img class="habilidades__icono_tools" src="assets/vscode.svg" alt="Icono de VS Code">VS Code</li>
+            </ul>
+        </section>
+
+    </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="hobbies">
+        <h2 class="aficiones__titulo">Aficiones</h2>
+        <ul class="aficiones__lista">
+            <li class="aficiones__elemento"><img class="aficiones__icono" src="assets/games.svg" alt="mando de videojuegos">Jugar Videojuegos</li>
+            <li class="aficiones__elemento"><img class="aficiones__icono" src="assets/drums.svg" alt="Icono de una bateria instrumento musical">Tocar Bateria</li>
+            <li class="aficiones__elemento"><img class="aficiones__icono" src="assets/crunchyrolls.svg" alt="Icono de Crunchyroll">Ver Animes</li>
+            <li class="aficiones__elemento"><img class="aficiones__icono" src="assets/camara.svg" alt="Icono de una camara fotografica">Tomar fotos</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/uss_logo.svg" alt="logo universidad Senor de Sipan">
+                <div>
+                    <h3 class="formacion__nombre">Ciencia de la Comunicacion</h3>
+                    <p class="formacion__detalle">2014 - USS</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.svg" alt="logo Alura">
+                <div>
+                    <h3 class="formacion__nombre">Principiante en Programación</h3>
+                    <p class="formacion__detalle">2024 - Alura</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+    
+    
+        <div class="proyectos__contenedor">
+            <h3 class="proyectos__nombre">Challenge de Encriptación de Texto</h3>
+            <p class="proyectos__descripcion">
+                Participé en un challenge de Alura Latam donde desarrollé un proyecto de encriptación de texto al cual llame Encripta2, aprendiendo sobre algoritmos y técnicas de seguridad. Esta experiencia me ayudó a mejorar mis habilidades en programación y lógica.
+            </p>
+            <div class=" imagen_proyecto">
+                <img class="imagen_proyecto_encriptado" src="assets/encriptados.png" alt="imagen de la pagina web encriptado " width="300" height="auto">
+                <img class="imagen_proyecto_encriptado" src="assets/encriptados2.png" alt="imagen de la pagina web encriptado " width="300" height="auto">
+            </div>
+            <p class="proyectos__descripcion">
+                Puedes ver el challenge realizado por mi <a class="proyectos__link" href="https://sonofthewolf90.github.io/AluraChallengeEncript/" target="_blank" rel="noopener noreferrer">Aquí ...</a></p>
+                
+        </div>
+    
+       
+    </section>
+    
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <h2 class="contacto__titulo">Contacto</h2>
+        <p class="parrafo__contacto">Si quieres contactarme, llena el formulario. ¡Te responderé pronto!</p>
+        <form class="contacto__formulario" id="contactoForm">
+            <input class="contacto__campo" id="nombre" type="text" placeholder="Nombre" required>
+            <p id="mensajeNombre"></p>  
+            <input class="contacto__campo" id="correo" type="email" placeholder="Correo Electrónico" required>
+            <p id="mensajeCorreo"></p>  
+            <input class="contacto__campo" id="tema" type="text" placeholder="Asunto" required>
+            <p id="mensajeTema"></p>  
+            <textarea class="contacto__campo contacto__campo--textarea" id="mensaje" placeholder="Mensaje" required></textarea>
+            <p id="mensajeMensaje"></p>  
+            <button class="contacto__boton" id="enviar" type="submit" disabled>Enviar</button>
+        </form>
+    </section>
+    
+
+    <!-- Aquí comienza el footer -->
+<footer class="footer">
+    <p>&copy; 2024 Josue Valdes. Todos los derechos reservados.</p>
+</footer>
+</body>
+    <script src="script.js"></script>
+</html>
