@@ -150,3 +150,11 @@ function validarMensaje() {
     mensajeMensaje.style.color = "";
     return true;
 }
+  
+// reproducir sonido al enviar 
+
+function sonidoEnviar(){
+    document.querySelector("#sonido_enviar").play();
+}
+
+document.querySelector(".contacto__boton").onclick = sonidoEnviar;
